@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtelMvcProje", "OtelMvcProje\OtelMvcProje.csproj", "{110C0ED7-CCCC-45CB-B862-C92B526819FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{110C0ED7-CCCC-45CB-B862-C92B526819FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110C0ED7-CCCC-45CB-B862-C92B526819FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110C0ED7-CCCC-45CB-B862-C92B526819FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110C0ED7-CCCC-45CB-B862-C92B526819FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68828A47-45C8-429E-9143-1023284D2025}
+	EndGlobalSection
+EndGlobal

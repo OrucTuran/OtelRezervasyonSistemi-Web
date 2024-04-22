@@ -1,0 +1,36 @@
+﻿@using OtelMvcProje.Models.Entitiy
+@model List<OtelMvcProje.Models.Entitiy.TblEkibimiz>
+
+<section class="team py-5" id="team">
+    <div class="container py-lg-4 py-sm-3">
+        <h3 class="title-big text-center mb-md-5 mb-4">Ekip Arkadaşlarımız</h3>
+        <div class="row inner-sec-w3layouts-w3pvt-lauinfo">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3 col-6">
+                    <div class="team-grids text-center">
+                        <img src="@item.Gorsel" class="img-fluid" alt="">
+                        <div class="team-info">
+                            <div class="caption">
+                                <h4>@item.AdSoyad</h4>
+                                <h6>@item.Unvan</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icons-section text-center">
+                        <a href="@item.LinkedIn">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                        <a href="@item.Twitter">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                        <a href="@item.Facebook">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

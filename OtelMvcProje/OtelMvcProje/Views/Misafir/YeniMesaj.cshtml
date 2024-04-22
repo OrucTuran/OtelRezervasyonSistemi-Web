@@ -1,0 +1,16 @@
+﻿@model OtelMvcProje.Models.Entitiy.TblMesaj2
+@{
+    ViewBag.Title = "YeniMesaj";
+    Layout = "~/Views/Shared/_MisafirLayout.cshtml";
+}
+<br />
+<h2>Yeni Mesaj Alanı</h2>
+<br />
+<form method="post">
+    <label>Konu</label>
+    @Html.TextBoxFor(x => x.Konu, new { @class = "form-control" })
+    <label>Mesajınız</label>
+    @Html.TextAreaFor(x => x.Mesaj,5,42, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-warning">Gönder</button>
+</form>

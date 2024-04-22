@@ -1,0 +1,30 @@
+﻿@model OtelMvcProje.Models.Entitiy.TblYeniKayit
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MisafirLayout.cshtml";
+}
+
+<h2>Profil Sayfası</h2>
+<br />
+@using (Html.BeginForm("MisafirBilgiGuncelle", "Misafir", FormMethod.Post)) // MisafirBilgiGuncelle isimli metoda git , nerede , ne zaman ))
+{ 
+<div class="form-group">
+    <label>ID</label>
+    @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "readonly" })
+    <br />
+    <label>Ad Soyad</label>
+    @Html.TextBoxFor(x => x.AdSoyad, new { @class = "form-control" })
+    <br />
+    <label>Mail</label>
+    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+    <br />
+    <label>Telefon</label>
+    @Html.TextBoxFor(x => x.Telefon, new { @class = "form-control" })
+    <br />
+    <label>Şifre</label>
+    @Html.TextBoxFor(x => x.Sifre, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-warning">Bilgilerini Güncelle</button>
+</div>
+}
