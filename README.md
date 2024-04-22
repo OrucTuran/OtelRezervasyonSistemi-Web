@@ -1,5 +1,43 @@
 # OtelRezervasyonSistemi-Web
-Otel rezervasyon, araç gereç ve yiyecek içecek bilgilerinin tutulduğu bir uygulama.
+
+# Otel Rezervasyon Sistemi - Web
+
+Bu proje, C# programlama dilini kullanarak geliştirilmiş bir otel rezervasyon sistemi web uygulamasıdır. Otel işletmelerinin müşterilerine çevrimiçi rezervasyon yapma imkanı sunmak için tasarlanmıştır.
+
+## Özellikler
+
+- **Çevrimiçi Rezervasyon:** Müşterilerin otel odalarını çevrimiçi olarak rezerve etmelerini sağlayan kullanıcı dostu bir arayüz.
+- **Oda Yönetimi:** Otel yetkililerinin oda bilgilerini yönetmelerini sağlayan bir yönetim paneli.
+- **Kullanıcı Yönetimi:** Otel personelinin ve müşterilerin hesaplarını yönetmelerini sağlayan bir kullanıcı yönetimi paneli.
+- **Ödeme İşlemleri:** Müşterilerin rezervasyonlarını ödemelerini sağlayan güvenli bir ödeme sistemi.
+
+## Kullanılan Teknolojiler
+
+- **C#:** Projenin temel programlama dili olarak kullanılmıştır.
+- **DevExpress:** Zengin özelliklere sahip kullanıcı arayüzü bileşenlerini sağlamak için kullanılmıştır.
+- **MVC5:** Model-View-Controller mimarisine dayalı olarak web uygulamasının geliştirilmesinde kullanılmıştır.
+- **Entity Framework:** Veritabanı işlemlerini kolaylaştırmak için kullanılmıştır.
+- **Code First:** Veritabanı modelini kod tarafında oluşturmak ve yönetmek için kullanılmıştır.
+- **SQL Server:** Veritabanı olarak kullanılmıştır.
+
+## Proje Yapısı & Mimarisi
+
+Proje, MVC (Model-View-Controller) mimarisine dayanmaktadır. Temel bileşenler şunlardır:
+
+- **Models:** Uygulamanın veri modelini temsil eden sınıfları içerir. Bu sınıflar, Entity Framework Code First yaklaşımıyla veritabanı tablolarını oluşturmak için kullanılır.
+- **Views:** Kullanıcı arayüzüyle ilgili tüm dosyaları içerir. HTML, CSS ve Razor syntax kullanılarak oluşturulmuştur.
+- **Controllers:** MVC mimarisindeki kontrolör sınıflarını içerir. HTTP isteklerini karşılar ve uygun iş mantığını yürütür.
+- **Scripts:** JavaScript dosyalarını içerir. İstemci tarafı etkileşimlerini yönetmek için kullanılır.
+- **Styles:** CSS dosyalarını içerir. Kullanıcı arayüzünün görünümünü şekillendirir.
+
+## Kurulum
+
+1. Bu repo'yu klonlayın: `git clone https://github.com/OrucTuran/OtelRezervasyonSistemi-Web.git`
+2. Visual Studio'da projeyi açın.
+3. Gerekli bağımlılıkları yükleyin.
+4. Veritabanı bağlantı bilgilerini güncelleyin.
+5. Projeyi başlatın ve kullanmaya başlayın!
+
 
 ![Anasayfa](https://github.com/OrucTuran/OtelRezervasyonSistemi-Web/assets/35014993/2f799168-ac0a-46bf-874f-756193a46e20)
 
