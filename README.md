@@ -1,7 +1,8 @@
 # Otel Rezervasyon Sistemi - Web
 
 Bu proje, C# programlama dilini kullanarak geliştirilmiş bir otel rezervasyon sistemi web uygulamasıdır. Otel işletmelerinin müşterilerine çevrimiçi rezervasyon yapma imkanı sunmak için tasarlanmıştır.
-
+- **Web Uygulaması:** Müşterilerin otel odalarını çevrimiçi olarak rezerve etmelerini sağlayan kullanıcı dostu bir arayüz.
+- **Masaüstü Uygulaması:** Otel personelinin oda bilgilerini yönetmelerini sağlayan bir masaüstü uygulaması. Masaüstü Uygulaması için bu repo'yu klonlayın: `git clone https://github.com/OrucTuran/OtelRezervasyonSistemi-DesktopApp.git`
 ## Özellikler
 
 - **Çevrimiçi Rezervasyon:** Müşterilerin otel odalarını çevrimiçi olarak rezerve etmelerini sağlayan kullanıcı dostu bir arayüz.
@@ -47,8 +48,9 @@ Proje, MVC (Model-View-Controller) mimarisine dayanmaktadır. Temel bileşenler 
 
 ## Kurulum
 
-1. Bu repo'yu klonlayın: `git clone https://github.com/OrucTuran/OtelRezervasyonSistemi-Web.git`
-2. Visual Studio'da projeyi açın.
-3. Gerekli bağımlılıkları yükleyin.
-4. Veritabanı bağlantı bilgilerini güncelleyin.
-5. Projeyi başlatın ve kullanmaya başlayın!
+1. Web Uygulaması için bu repo'yu klonlayın: `git clone https://github.com/OrucTuran/OtelRezervasyonSistemi-Web.git`
+2. Masaüstü Uygulaması için bu repo'yu klonlayın: `git clone https://github.com/OrucTuran/OtelRezervasyonSistemi-DesktopApp.git`
+3. Visual Studio'da projeleri açın.
+4. Gerekli bağımlılıkları yükleyin.
+5. Veritabanı bağlantı bilgilerini güncelleyin.
+6. Projeleri başlatın ve kullanmaya başlayın!
